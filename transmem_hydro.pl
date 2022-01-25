@@ -1,3 +1,7 @@
+#
+#
+#predict transmembrane positions on sequence based on Kyte-Doolitle hydroscale
+
 @transmem_positions = (35,58,72,95,107,129,151,174,197,220,275,298,306,329); #given transmem positions
 @regular_transmem = ();
 @window_sequence = ();
@@ -51,7 +55,7 @@ $seq_lenth = length($sequence);
 
 %avg_vals;
 
-print "Please give the window size: ";
+print "\nPlease give the window size: ";
 $window_size =  <>;
 
 while ($window_size % 2 == 0 || $window_size < 0 || $window_size > 21){
