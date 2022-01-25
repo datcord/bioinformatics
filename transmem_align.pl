@@ -1,3 +1,7 @@
+#
+#
+#find specific sequence in transmem protein files
+
 $/="\/\/\n";
 @sequence_array = ();
 @help_array = ();
